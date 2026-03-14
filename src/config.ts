@@ -2,8 +2,8 @@ export const CONFIG = {
   wedding: {
     bride: "Nguyễn Mạnh Hà",
     groom: "Nguyễn Thục Uyên",
-    coupleName: "Hàxxxxxxx & Uyên",
-    date: "2026-12-26T12:00:00",
+    coupleName: "Hà & Uyên",
+    date: "2026-12-26T18:00:00",
     dateFormatted: "Ngày 26 tháng 12 năm 2026",
     monthYear: "THÁNG 12 NĂM 2026",
     rsvpPhoneNumber: "0966092058",
@@ -16,7 +16,7 @@ export const CONFIG = {
       },
       bride: {
         name: "Nguyễn Thục Uyên",
-        number: "xxxxxxxxxxxx",
+        number: "2002020222222",
         bankName: "MB Bank",
         bankId: "MB"
       }
@@ -25,19 +25,11 @@ export const CONFIG = {
   events: [
     {
       title: "Lễ Thành Hôn",
-      time: "12:00",
+      time: "18:00",
       day: "Thứ Bảy, ngày 26 tháng 12 năm 2026",
       location: "Nhà Hàng Tiệc Cưới Biển Rừng 2",
       address: "69 Đinh Tiên Hoàng, Cam Hải Tây, Cam Lâm, Khánh Hòa",
       mapLink: "https://share.google/O9eEruaMCkcToWZdO",
-    },
-    {
-      title: "Tiệc Trưa Chúc Mừng",
-      time: "12:30",
-      day: "Thứ Bảy, ngày 26 tháng 23 năm 2026",
-      location: "Sảnh Ballroom - Tầng G",
-      address: "69 Đinh Tiên Hoàng, Cam Hải Tây, Cam Lâm, Khánh Hòa",
-      mapLink: "https://www.google.com/maps/search/?api=1&query=InterContinental+Nha+Trang",
     }
   ],
   stories: [

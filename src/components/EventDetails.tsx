@@ -34,7 +34,9 @@ export default function EventDetails() {
     >
       <div className="absolute inset-0 bg-stone-900/60 backdrop-blur-sm"></div>
       
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-8 md:gap-12 text-white">
+      <div className={`relative z-10 max-w-6xl mx-auto px-4 sm:px-6 text-white ${
+        CONFIG.events.length > 1 ? 'grid md:grid-cols-2 gap-8 md:gap-12' : 'flex justify-center'
+      }`}>
         {CONFIG.events.map((event, index) => (
           <motion.div 
             key={index}
