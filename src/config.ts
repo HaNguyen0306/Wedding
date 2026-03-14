@@ -2,7 +2,7 @@ export const CONFIG = {
   wedding: {
     bride: "Nguyễn Mạnh Hà",
     groom: "Nguyễn Thục Uyên",
-    coupleName: "Hà & Uyên",
+    coupleName: "Hà 1 & Uyên",
     date: "2026-12-26T12:00:00",
     dateFormatted: "Ngày 26 tháng 12 năm 2026",
     monthYear: "THÁNG 12 NĂM 2026",
