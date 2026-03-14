@@ -15,7 +15,6 @@ import MusicPlayer from './components/MusicPlayer';
 import GiftSection from './components/GiftSection';
 import Timeline from './components/Timeline';
 import Calendar from './components/Calendar';
-import DressCode from './components/DressCode';
 import LoadingScreen from './components/LoadingScreen';
 
 export default function App() {
@@ -58,7 +57,6 @@ export default function App() {
         <Calendar />
         <Timeline />
         <EventDetails />
-        <DressCode />
         <GiftSection />
         <RSVP />
         <Footer />

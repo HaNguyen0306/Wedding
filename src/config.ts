@@ -29,7 +29,7 @@ export const CONFIG = {
       day: "Thứ Bảy, ngày 26 tháng 12 năm 2026",
       location: "Nhà Hàng Tiệc Cưới Biển Rừng 2",
       address: "69 Đinh Tiên Hoàng, Cam Hải Tây, Cam Lâm, Khánh Hòa",
-      mapLink: "https://share.google/O9eEruaMCkcToWZdO",
+      mapLink: "https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+Ti%E1%BB%87c+C%C6%B0%E1%BB%9Bi+Bi%E1%BB%83n+R%E1%BB%ABng+2/@12.0765032,109.1722873,17z/data=!3m1!4b1!4m6!3m5!1s0x3170f50038467863:0xb890adc5156524b8!8m2!3d12.0765032!4d109.1722873!16s%2Fg%2F11msfzvxsp?hl=vi&entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
     }
   ],
   stories: [
@@ -93,15 +93,5 @@ export const CONFIG = {
       description: "Âm nhạc và những khoảnh khắc vui vẻ",
       icon: "music"
     }
-  ],
-  dressCode: {
-    title: "Trang Phục",
-    description: "Để ngày chung đôi thêm phần trọn vẹn và những bức ảnh kỷ niệm thêm phần hài hòa, quý khách vui lòng lựa chọn trang phục theo các tông màu gợi ý dưới đây:",
-    colors: [
-      { name: "Beige", hex: "#E6D5C3" },
-      { name: "Kem", hex: "#FFFDD0" },
-      { name: "Trắng", hex: "#FFFFFF" },
-      { name: "Nâu Trầm", hex: "#A38B75" }
-    ]
-  }
+  ]
 };
