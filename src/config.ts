@@ -1,22 +1,22 @@
 export const CONFIG = {
   wedding: {
-    bride: "Đoàn Thị Mỹ Hạnh",
-    groom: "Nguyễn Văn Anh",
-    coupleName: "Hạnh & Anh",
-    date: "2026-06-20T17:00:00",
-    dateFormatted: "Ngày 20 tháng 06 năm 2026",
-    monthYear: "THÁNG 06 NĂM 2026",
-    rsvpPhoneNumber: "0392735734",
+    bride: "Nguyễn Mạnh Hà",
+    groom: "Nguyễn Thục Uyên",
+    coupleName: "Hà & Uyên",
+    date: "2026-12-26T12:00:00",
+    dateFormatted: "Ngày 26 tháng 12 năm 2026",
+    monthYear: "THÁNG 12 NĂM 2026",
+    rsvpPhoneNumber: "0966092058",
     bank: {
       groom: {
-        name: "Nguyễn Văn Anh",
-        number: "123456789",
-        bankName: "Vietcombank",
-        bankId: "VCB"
+        name: "Nguyễn Mạnh Hà",
+        number: "002203062000",
+        bankName: "MB Bank",
+        bankId: "MB"
       },
       bride: {
-        name: "Đoàn Thị Mỹ Hạnh",
-        number: "987654321",
+        name: "Nguyễn Thục Uyên",
+        number: "xxxxxxxxxxxx",
         bankName: "MB Bank",
         bankId: "MB"
       }
@@ -25,31 +25,31 @@ export const CONFIG = {
   events: [
     {
       title: "Lễ Thành Hôn",
-      time: "17:00",
-      day: "Thứ Bảy, ngày 20 tháng 06 năm 2026",
-      location: "InterContinental Nha Trang",
-      address: "32-34 Trần Phú, Lộc Thọ, Nha Trang, Khánh Hòa",
-      mapLink: "https://www.google.com/maps/search/?api=1&query=InterContinental+Nha+Trang",
+      time: "12:00",
+      day: "Thứ Bảy, ngày 26 tháng 12 năm 2026",
+      location: "Nhà Hàng Tiệc Cưới Biển Rừng 2",
+      address: "69 Đinh Tiên Hoàng, Cam Hải Tây, Cam Lâm, Khánh Hòa",
+      mapLink: "https://share.google/O9eEruaMCkcToWZdO",
     },
     {
-      title: "Tiệc Tối Chúc Mừng",
-      time: "18:30",
-      day: "Thứ Bảy, ngày 20 tháng 06 năm 2026",
-      location: "Sảnh Ballroom - Tầng 2",
-      address: "32-34 Trần Phú, Lộc Thọ, Nha Trang, Khánh Hòa",
+      title: "Tiệc Trưa Chúc Mừng",
+      time: "12:30",
+      day: "Thứ Bảy, ngày 26 tháng 23 năm 2026",
+      location: "Sảnh Ballroom - Tầng G",
+      address: "69 Đinh Tiên Hoàng, Cam Hải Tây, Cam Lâm, Khánh Hòa",
       mapLink: "https://www.google.com/maps/search/?api=1&query=InterContinental+Nha+Trang",
     }
   ],
   stories: [
     {
       title: "Lần Đầu Gặp Gỡ",
-      description: "Chúng mình gặp nhau vào một buổi chiều nắng đẹp tại Nha Trang. Giữa tiếng sóng vỗ và làn gió biển, một tình yêu nhẹ nhàng đã bắt đầu nảy nở.",
+      description: "Chúng mình gặp nhau vào một buổi tối bán coffee ít khách tại Cam Đức. Giữa lần đầu gặp mặt đó, một tình yêu nhẹ nhàng đã bắt đầu nảy nở.",
       image: "story_1.webp",
       reverse: false
     },
     {
       title: "Lời Cầu Hôn",
-      description: "Trên đỉnh đồi nhìn xuống vịnh biển lung linh, Nam đã hỏi câu hỏi quan trọng nhất cuộc đời mình. Và Mỹ Hạnh đã mỉm cười đồng ý trong niềm hạnh phúc ngập tràn.",
+      description: "Trên Sân thượng tại một nhà hàng ý cao cấp ở Nha Trang, Hà đã hỏi câu hỏi quan trọng nhất cuộc đời mình. Và Uyên đã mỉm cười đồng ý trong niềm hạnh phúc ngập tràn.",
       image: "story_2.webp",
       reverse: true
     },
