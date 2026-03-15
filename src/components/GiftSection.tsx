@@ -38,7 +38,7 @@ const GiftSection: React.FC = () => {
         </p>
         <button
           onClick={() => setShowModal(true)}
-          className="bg-[#b76e79] text-white px-10 py-4 rounded-full font-serif text-lg shadow-lg hover:bg-[#a35d68] transition-all hover:scale-105 active:scale-95"
+          className="bg-[#b76e79] text-white px-10 py-4 rounded-full font-serif text-lg shadow-lg hover:bg-[#a35d68] transition-all hover:scale-105 active:scale-95 animate-tada"
         >
           Mừng Cưới Đến Cặp Đôi
         </button>

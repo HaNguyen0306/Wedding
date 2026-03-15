@@ -6,11 +6,12 @@ export default function OurStory() {
   const stories = CONFIG.stories;
 
   return (
-    <section id="story" className="py-24 px-6 md:px-12 bg-white relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-64 h-64 pointer-events-none opacity-15">
+    <section id="story" className="py-12 md:py-24 px-6 md:px-12 bg-[#fdfaf7] relative overflow-hidden flex items-center justify-center">
+      <div className="absolute inset-0 w-full h-full pointer-events-none opacity-10">
         <img 
           src={CONFIG.assets.storyAccent} 
           alt="Flower accent" 
+          className="w-full h-full object-cover"
         />
       </div>
       

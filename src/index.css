@@ -39,6 +39,7 @@
 }
 
 @import "tailwindcss";
+@tailwind utilities;
 
 @theme {
   --color-primary: #fdfaf7; /* Cream background */
@@ -74,6 +75,18 @@
 }
 
 @layer utilities {
+  @keyframes tada {
+    0% { transform: scale(1); }
+    10%, 20% { transform: scale(0.95) rotate(-1.5deg); }
+    30%, 50%, 70%, 90% { transform: scale(1.05) rotate(1.5deg); }
+    40%, 60%, 80% { transform: scale(1.05) rotate(-1.5deg); }
+    100% { transform: scale(1) rotate(0); }
+  }
+
+  .animate-tada {
+    animation: tada 2.5s ease-in-out infinite;
+  }
+
   .parallax-bg {
     background-attachment: fixed;
     background-position: center;

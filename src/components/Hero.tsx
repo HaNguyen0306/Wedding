@@ -52,7 +52,7 @@ export default function Hero() {
 
             <button
               onClick={scrollToNext}
-              className="bg-[#b76e79] text-white px-10 py-4 rounded-full font-serif text-lg shadow-lg hover:bg-[#a35d68] transition-all hover:scale-105 active:scale-95 cursor-pointer"
+              className="bg-[#b76e79] text-white px-10 py-4 rounded-full font-serif text-lg shadow-lg hover:bg-[#a35d68] transition-all hover:scale-105 active:scale-95 cursor-pointer animate-tada"
             >
               Mở Thiệp
             </button>

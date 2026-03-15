@@ -46,11 +46,8 @@ export default function RSVP() {
   return (
     <section id="rsvp" className="py-12 md:py-24 px-6 md:px-12 bg-[#fdfaf7] relative overflow-hidden flex items-center justify-center">
       {/* Decorative Accents */}
-      <div className="absolute top-0 left-0 w-64 h-64 pointer-events-none opacity-10 rotate-180">
-        <img src={CONFIG.assets.storyAccent} alt="Flower accent" />
-      </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 pointer-events-none opacity-10">
-        <img src={CONFIG.assets.storyAccent} alt="Flower accent" />
+      <div className="absolute inset-0 w-full h-full pointer-events-none opacity-10">
+        <img src={CONFIG.assets.storyAccent} alt="Flower accent" className="w-full h-full object-cover" />
       </div>
 
       <motion.div 
@@ -134,7 +131,7 @@ export default function RSVP() {
           <div className="pt-4 pb-2">
             <button 
               type="submit" 
-              className="w-full bg-accent text-white py-3 md:py-5 rounded-2xl text-base md:text-lg font-serif uppercase tracking-[0.1em] md:tracking-[0.3em] shadow-[0_15px_30px_rgba(183,110,121,0.25)] hover:bg-[#a35d68] hover:shadow-[0_20px_40px_rgba(183,110,121,0.35)] transition-all duration-500 hover:-translate-y-1 active:scale-[0.98] overflow-hidden group relative"
+              className="w-full bg-accent text-white py-3 md:py-5 rounded-2xl text-base md:text-lg font-serif uppercase tracking-[0.1em] md:tracking-[0.3em] shadow-[0_15px_30px_rgba(183,110,121,0.25)] hover:bg-[#a35d68] hover:shadow-[0_20px_40px_rgba(183,110,121,0.35)] transition-all duration-500 hover:-translate-y-1 active:scale-[0.98] overflow-hidden group relative animate-tada"
             >
               <span className="relative z-10">Gửi Lời Xác Nhận</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />

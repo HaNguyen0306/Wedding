@@ -6,7 +6,7 @@ export const CONFIG = {
     date: "2026-12-26T18:00:00",
     dateFormatted: "Ngày 26 tháng 12 năm 2026",
     monthYear: "THÁNG 12 NĂM 2026",
-    rsvpPhoneNumber: "0966092058",
+    rsvpPhoneNumber: "0357007300",
     bank: {
       groom: {
         name: "Nguyễn Mạnh Hà",
@@ -29,25 +29,25 @@ export const CONFIG = {
       day: "Thứ Bảy, ngày 26 tháng 12 năm 2026",
       location: "Nhà Hàng Tiệc Cưới Biển Rừng 2",
       address: "69 Đinh Tiên Hoàng, Cam Hải Tây, Cam Lâm, Khánh Hòa",
-      mapLink: "https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+Ti%E1%BB%87c+C%C6%B0%E1%BB%9Bi+Bi%E1%BB%83n+R%E1%BB%ABng+2/@12.0765032,109.1722873,17z/data=!3m1!4b1!4m6!3m5!1s0x3170f50038467863:0xb890adc5156524b8!8m2!3d12.0765032!4d109.1722873!16s%2Fg%2F11msfzvxsp?hl=vi&entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+      mapLink: "https://share.google/O9eEruaMCkcToWZdO",
     }
   ],
   stories: [
     {
       title: "Lần Đầu Gặp Gỡ",
-      description: "Chúng mình gặp nhau vào một buổi tối bán coffee ít khách tại Cam Đức. Giữa lần đầu gặp mặt đó, một tình yêu nhẹ nhàng đã bắt đầu nảy nở.",
+      description: "Chúng mình bắt đầu từ một sự tình cờ trên Facebook. Qua những cuộc trò chuyện mỗi ngày, khoảng cách giữa hai người xa lạ dần được rút ngắn. Cho đến khi gặp nhau ngoài đời lần đầu tiên, chúng mình mới biết rằng đó chính là khởi đầu cho một hành trình yêu thương.",
       image: "story_1.webp",
       reverse: false
     },
     {
       title: "Lời Cầu Hôn",
-      description: "Trên Sân thượng tại một nhà hàng ý cao cấp ở Nha Trang, Hà đã hỏi câu hỏi quan trọng nhất cuộc đời mình. Và Uyên đã mỉm cười đồng ý trong niềm hạnh phúc ngập tràn.",
+      description: "Trong một buổi tối lãng mạn trên sân thượng của một nhà hàng tại Nha Trang, giữa ánh đèn ấm áp và khung cảnh thành phố về đêm, Hà đã hỏi Uyên câu hỏi quan trọng nhất của cuộc đời. Và Uyên đã mỉm cười gật đầu, bắt đầu cho một hành trình mới của hai đứa – hành trình của yêu thương và hạnh phúc.",
       image: "story_2.webp",
       reverse: true
     },
     {
       title: "Hành Trình Mới",
-      description: "Sau những năm tháng bên nhau, giờ đây chúng mình đã sẵn sàng cho một chương mới của cuộc đời. Cảm ơn bạn đã luôn đồng hành cùng chúng mình!",
+      description: "Sau những năm tháng đồng hành cùng nhau, chúng mình đã sẵn sàng bước sang một chương mới của cuộc đời, cùng nắm tay nhau xây dựng tổ ấm và viết tiếp câu chuyện của hai đứa.",
       image: "story_3.webp",
       reverse: false
     }
@@ -93,5 +93,15 @@ export const CONFIG = {
       description: "Âm nhạc và những khoảnh khắc vui vẻ",
       icon: "music"
     }
-  ]
+  ],
+  dressCode: {
+    title: "Trang Phục",
+    description: "Để ngày chung đôi thêm phần trọn vẹn và những bức ảnh kỷ niệm thêm phần hài hòa, quý khách vui lòng lựa chọn trang phục theo các tông màu gợi ý dưới đây:",
+    colors: [
+      { name: "Beige", hex: "#E6D5C3" },
+      { name: "Kem", hex: "#FFFDD0" },
+      { name: "Trắng", hex: "#FFFFFF" },
+      { name: "Nâu Trầm", hex: "#A38B75" }
+    ]
+  }
 };

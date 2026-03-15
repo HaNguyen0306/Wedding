@@ -16,7 +16,7 @@
             "name": "Launch Dev",
             "request": "launch",
             "type": "chrome",
-            "url": "http://localhost:3000",
+            "url": "http://localhost:5173",
             "webRoot": "${workspaceFolder}",
             "preLaunchTask": "start-dev"
         }
