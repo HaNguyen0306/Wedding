@@ -31,3 +31,4 @@ Khuyến khích sử dụng định dạng `.webp` để tối ưu hóa dung lư
 2. Cài đặt dependencies: `npm install`
 3. Chạy dev server: `npm run dev`
 4. Build sản phẩm: `npm run build`
+# wedding_v2
